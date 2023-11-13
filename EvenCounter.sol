@@ -43,6 +43,8 @@ contract EvenCounter {
         return counter.number;
     }
 
- 
+  function desc() external view returns(string memory) {
+        return counter.description;
+    }
 
 }
